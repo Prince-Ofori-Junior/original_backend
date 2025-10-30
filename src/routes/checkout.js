@@ -23,7 +23,7 @@ const upload = multer({ storage });
 
 // -------------------- BASE URL --------------------
 // Always use your deployed backend URL
-const BASE_URL = "https://fosten-e-commerce-backend.onrender.com";
+const BASE_URL = "https://original-backend-8b5r.onrender.com";
 
 // -------------------- SERVE UPLOADS --------------------
 router.use("/uploads", express.static(path.join(__dirname, "../uploads")));
