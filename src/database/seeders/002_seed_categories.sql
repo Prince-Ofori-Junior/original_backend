@@ -1,0 +1,3 @@
+-- INSERT INTO categories (name, description) 
+-- VALUES ('Electronics', 'Electronic devices and gadgets')
+-- RETURNING id;

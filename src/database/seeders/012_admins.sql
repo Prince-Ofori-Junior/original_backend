@@ -1,0 +1,11 @@
+-- -- Make sure the UUID extension is enabled
+-- CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+-- -- Insert a temporary admin
+-- INSERT INTO admins (name, email, password, role)
+-- VALUES (
+--     'Super Admin',
+--     'admin@example.com',
+--     'qwerty',  -- bcrypt-hashed password
+--     'admin'
+-- );
