@@ -16,7 +16,7 @@ const {
 } = require("../delivery/delivery.service");
 
 const PAYSTACK_SECRET_KEY = process.env.PAYSTACK_SECRET_KEY;
-const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://original-frontend-theta.vercel.app";
 
 // ------------------- DELIVERY HELPER -------------------
 const ensureDeliveryForOrder = async (order) => {
@@ -163,7 +163,7 @@ const verifyOrderService = async (reference) => {
 
 // ------------------- EXPORT -------------------
 module.exports = {
-  placeOrderService,
+  placeOrderService, 
   getUserOrdersService: getUserOrders,
   getOrderService: getOrderById,
   listAllOrdersService: getAllOrders,
