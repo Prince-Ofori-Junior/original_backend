@@ -38,11 +38,10 @@ const PORT = process.env.PORT || 8000;
     // -------------------- SOCKET.IO --------------------
     // Use the same allowedOrigins array from app.js
 const allowedSocketOrigins = process.env.FRONTEND_URL?.split(',') || [
-  'https://fosten-e-commerce-frontend.vercel.app',
+  'https://original-frontend-theta.vercel.app',
   'http://localhost:3000',
   'http://localhost:3001',
   'https://admin-beige-nu.vercel.app/login',
-  'https://fosten-e-commerce-frontend-haiw2svul.vercel.app',
 
 ];
 
