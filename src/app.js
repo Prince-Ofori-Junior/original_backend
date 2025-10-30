@@ -100,7 +100,7 @@ app.use((req, res, next) => {
 
 // -------------------- CORS --------------------
 const allowedOrigins = process.env.FRONTEND_URL?.split(',') || [
-  'https://original-frontend-theta.vercel.app/',
+  'https://original-frontend-theta.vercel.app',
   'http://localhost:3000',
   'http://localhost:3001',
   'https://admin-beige-nu.vercel.app/login',
